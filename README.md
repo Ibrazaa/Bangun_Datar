@@ -1,19 +1,3 @@
-# chelkydo_ibraza
-
-Aplikasi_Bangun_Datar
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 Screenshoot Aplikasi Bangun Datar
 Tampilan Home
 ![image](https://github.com/Ibrazaa/Bangun_Datar/assets/115200230/759f1fba-27ef-4216-93e9-2ea6a3550bb4)
