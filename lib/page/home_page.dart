@@ -1,3 +1,7 @@
+import 'package:chelkydo_ibraza/page/lingkaran_page.dart';
+import 'package:chelkydo_ibraza/page/persegi_page.dart';
+import 'package:chelkydo_ibraza/page/persegi_panjang_page.dart';
+import 'package:chelkydo_ibraza/page/segitiga_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -19,15 +23,31 @@ class HomePage extends StatelessWidget {
            Expanded(
              child: Row(
                children: [
-                 Expanded(child:CustomMenu(title: "Persegi",imageAsset: "assets/persegi.png",)),
-                 Expanded(child:CustomMenu(title: "Segitiga",imageAsset: "assets/segitiga.png",)),
+                 Expanded(child: InkWell(
+                     onTap: (){
+                   Navigator.push(context, MaterialPageRoute(builder: (context)=>PersegiPage()));
+                   }
+                   ,child: CustomMenu(title: "Persegi",imageAsset: "assets/persegi.png",))),
+
+                 Expanded(child: InkWell( onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>SegitigaPage()));
+                 },
+                  child: CustomMenu(title: "Segitiga",imageAsset: "assets/segitiga.png",))),
                ],
              ),
            ), Expanded(
              child: Row(
                children: [
-                 Expanded(child:CustomMenu(title: "Persegi Panjang",imageAsset: "assets/persegipanjang.png",)),
-                 Expanded(child:CustomMenu(title: "Lingkaran",imageAsset: "assets/lingkaran.png",)),
+                 Expanded(child:InkWell( onTap: () {
+                   Navigator.push(context,
+                       MaterialPageRoute(builder: (context) => PersegiPanjangPage()));
+                 },
+                 child: CustomMenu(title: "Persegi Panjang",imageAsset: "assets/persegipanjang.png",))),
+
+                 Expanded(child: InkWell( onTap: (){
+                   Navigator.push(context, MaterialPageRoute(builder: (context)=>LingkaranPage()));
+                  },
+                     child: CustomMenu(title: "Lingkaran",imageAsset: "assets/lingkaran.png",))),
                ],
              ),
            ),
