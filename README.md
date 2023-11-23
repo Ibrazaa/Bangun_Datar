@@ -1,6 +1,6 @@
 Screenshoot Aplikasi Bangun Datar
 Tampilan Home
-![image](https://github.com/Ibrazaa/Bangun_Datar/assets/115200230/759f1fba-27ef-4216-93e9-2ea6a3550bb4)
+![image](https://github.com/Ibrazaa/Bangun_Datar/assets/115200230/5e45b58f-e7c2-473a-b64a-2f9f01536eda)
 Tampilan Persegi Hitung Keliling & Hitung Luas
 ![image](https://github.com/Ibrazaa/Bangun_Datar/assets/115200230/4ebc3188-fac1-46fa-8568-28637372b129)
 ![image](https://github.com/Ibrazaa/Bangun_Datar/assets/115200230/c763be2c-0723-41ac-b65f-cb420ade0dce)
