@@ -1,4 +1,4 @@
-import 'package:chelkydo_ibraza/controller/lingkaran_controller2.dart';
+import 'package:chelkydo_ibraza/controller/lingkaran_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

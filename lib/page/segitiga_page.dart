@@ -1,4 +1,4 @@
-import 'package:chelkydo_ibraza/controller/segitiga_controller1.dart';
+import 'package:chelkydo_ibraza/controller/segitiga_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
